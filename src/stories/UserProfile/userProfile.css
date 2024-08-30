@@ -1,0 +1,35 @@
+.wrapper {
+    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    width: 300px;
+}
+
+.avatar {
+    flex-shrink: 0;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #dede00;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 16px;
+    flex-grow: 1;
+}
+
+.user-name {
+    font-weight: 700;
+}
+
+.user-position {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.user-description {
+    color: rgba(0, 0, 0, 0.7);
+}
